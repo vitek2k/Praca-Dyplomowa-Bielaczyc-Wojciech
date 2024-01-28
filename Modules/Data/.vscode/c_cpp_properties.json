@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "compilerPath": "C:\\Espressif\\tools\\xtensa-esp32s2-elf\\esp-12.2.0_20230208\\xtensa-esp32s2-elf\\bin\\xtensa-esp32s2-elf-gcc.exe",
+            "includePath": [
+                "${config:idf.espIdfPath}/components/**",
+                "${config:idf.espIdfPathWin}/components/**",
+                "${config:idf.espAdfPath}/components/**",
+                "${config:idf.espAdfPathWin}/components/**",
+                "${workspaceFolder}/**",
+                "../../Firmware_Common/**",
+                "./Source/**"
+            ],
+            "browse": {
+                "path": [
+                    "${config:idf.espIdfPath}/components",
+                    "${config:idf.espIdfPathWin}/components",
+                    "${config:idf.espAdfPath}/components/**",
+                    "${config:idf.espAdfPathWin}/components/**",
+                    "${workspaceFolder}",
+                    "../../Firmware_Common/CAN/**",
+                    "../../Firmware_Common/Inc/**",
+                    "./Source/**",
+                    "${config:idf.espAdfPathWin}/components/driver/twai/include/**",
+                    "${config:idf.espAdfPathWin}/components/driver/gpio/include/**",
+                    "${config:idf.espAdfPathWin}/components/ulp/ulp_riscv/ulp_core/include"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}

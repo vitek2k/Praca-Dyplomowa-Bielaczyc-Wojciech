@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Firmware_Common"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"module_communication_interface.hpp": "c",
+			"task.h": "c",
+			"esp_chip_info.h": "c",
+			"freertos.h": "c",
+			"stdio.h": "c",
+			"esp_wifi_types_private.h": "c",
+			"timers.h": "c",
+			"ulp_riscv_gpio.h": "c",
+			"array": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"system_error": "cpp",
+			"compare": "cpp",
+			"functional": "cpp",
+			"chrono": "cpp"
+		}
+	}
+}
